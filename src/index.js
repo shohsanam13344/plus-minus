@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import State from './State';
+import './Houzing.css';
+import Houzing from './Houzing';
+// import Navbar from './Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <State />
+    <Houzing />
+    {/* <Navbar /> */}
   </React.StrictMode>
 );
 
