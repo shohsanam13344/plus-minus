@@ -78,9 +78,6 @@ class Table extends React.Component{
                                                 <a href="" onClick={() => onDelete(id)}><i class="fa-solid fa-trash"></i></a>
                                                 <a href=""><i class="fa-solid fa-heart"></i></a>
                                              </td>
-                                             {/* <td className="data-btn">
-                                                <button>add</button>
-                                             </td> */}
                                         </tr>
                                     )
                                 })
