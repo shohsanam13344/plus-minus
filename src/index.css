@@ -37,6 +37,8 @@ code {
 
 .btn2{
   border: none;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
   position: relative;
   left: 50px;
   bottom: 115px;
