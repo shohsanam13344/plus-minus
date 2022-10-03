@@ -33,6 +33,7 @@ export const Box2 = styled.div`
      justify-content: center;
 `
 export const Title = styled.a`
+     text-decoration: none;
      font-style: normal;
      margin-left: 50px;
      font-weight: 500;
@@ -65,13 +66,19 @@ export const Button = styled.button`
       border: 1px solid grey;
       width: 295px;
       height: 45px;
-      background: #46A358;
       border-radius: 5px;
       font-style: normal;
       font-weight: 700;
       font-size: 16px;
       line-height: 16px;
+      background: #46A358;
       color: #FFFFFF;
+
+      :active{
+          transform: rotate(30deg) 1s;
+          background-color: black;
+      }
+      ${({type}) => getType(type)}
 `
 export const P1 = styled.p`
       margin-left: 85px;
@@ -114,3 +121,23 @@ export const P2 = styled.p`
     color: #46A358;
     margin-left: 170px;
 `
+
+const getType = (type) => {
+     switch(type) {
+          case 'primary': 
+                 return{
+                    background: 'blue',
+                    color: 'white',
+                 }
+          case 'secondary': 
+                 return{
+                    background: 'black',
+                    color: 'white',
+                 }
+          default :
+                 return{
+                    background: '#46A358',
+                    color: '#FFFFFF',
+                 }
+     }
+}

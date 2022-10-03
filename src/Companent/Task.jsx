@@ -8,14 +8,15 @@ class Task extends Component {
           <Boxs>
              <Box1>
                 <Div>
-                       <Title>Login I Register</Title>
+                       <Title href='type'>Login I </Title>
+                       <Title href='type'>Register </Title>
                        <P>Enter your username and password to login.</P>
                      <Div1>
                          <Input type="email" placeholder='almamun_uxui@outlook.com' />
                          <Input type="possword" placeholder='...' />
                          <P2>Forgot Password?</P2>
                     </Div1>
-                    <Button>Login</Button>
+                    <Button type=' '>Login</Button>
                     <P1>Or register with</P1>
                     <Input1 type="text" placeholder='Continue with Google' />
                     <Input1 type="text" placeholder='Continue with Facebook' />
@@ -23,7 +24,8 @@ class Task extends Component {
              </Box1>
              <Box2>
              <Div>
-                       <Title>Login I Register</Title>
+                       <Title href='type'>Login I </Title>
+                       <Title href='type'>Register </Title>
                        <P>Enter your email and password to register.</P>
                      <Div1>
                          <Input type="text" placeholder='Username' />
@@ -31,7 +33,7 @@ class Task extends Component {
                          <Input type="password" placeholder='Password' />
                          <Input type="password" placeholder='Confirm Password' />
                     </Div1>
-                    <Button>Register</Button>
+                    <Button type=' '>Register</Button>
                     <P1>Or register with</P1>
                     <Input1 type="text" placeholder='Continue with Google' />
                     <Input1 type="text" placeholder='Continue with Facebook' />
