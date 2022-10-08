@@ -2,9 +2,7 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-       /* border: 1px solid white; */
-       /* display: flex; */
-       height: 100vh;
+       height: 117vh;
        width: 240px;
        background: #18181818;
        color: white;
@@ -29,6 +27,9 @@ export const Title = styled.div`
 export const IconWrapper = styled.div`
         display: flex;
         align-items: center;
+        :hover{
+              background: grey;
+        }
 
 `
 export const Icon = styled.img`

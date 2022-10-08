@@ -7,18 +7,16 @@ import {ReactComponent as bell} from '../essets/icons/bell.svg'
 
 
 export const Container = styled.div`
-        /* border: 1px solid white; */
         display: flex;
         flex-direction: ${({ flex })=>!flex && 'column'};
         background: #181818;
         color: #f1f1f1;
         width: 100%;
-        height: 110vh; 
+        height: 128vh; 
         padding: ${({ flex })=>!flex && '0 30px'}; 
 `;
 
 export const Wrapper = styled.div`
-        /* border: 1px solid yellow; */
         height: 60px;
         background: #181818;
         display: flex;
@@ -29,7 +27,6 @@ export const Wrapper = styled.div`
 `;
 
 export const Catigory =styled.div`
-       /* border: 1px solid yellow; */
        display: flex;
        flex: 2;
        align-items: center;
@@ -50,7 +47,6 @@ Icons.search = styled(search)`
        width: 30px;
        height: 30px;
        color: #ffffff;
-       /* padding: 10px 20px; */
        background-color: rgba(255, 255, 255, 0.2);
        border-radius: 0px 2px 2px 0px;
        cursor: pointer;

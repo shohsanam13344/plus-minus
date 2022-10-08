@@ -7,11 +7,11 @@ class Sidebar extends Component {
   render() {
     return (
       <Container>
-             {sidebar.map(({id, icon, title, data}) => (
-                <Wrapper key={id}>
-                      {title && <Title title>{title}</Title>}
-                      {data.map(({icon, title}) =>(
-                        <IconWrapper key={id}>
+             {sidebar.map(({id, icon, title, data}, index) => (
+                <Wrapper key={index}>
+                      {title && <Title title='true'>{title}</Title>}
+                      {data.map(({icon, title}, index) =>(
+                        <IconWrapper key={index}>
                            <Icon src={icon} />
                           <Title>{title}</Title>
                         </IconWrapper>

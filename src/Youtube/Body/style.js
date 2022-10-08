@@ -2,15 +2,18 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-       /* border: 3px solid red; */
        flex: 1;
-       height: 110vh;
+       height: 115vh;
        background: #000000;
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
        overflow-y: scroll;
-       margin: 20px;
-       /* background: red; */
-       /* color: white; */
+       margin: 10px;
+`
+
+export const Btn = styled.button`
+       width: 30px;
+       height: 40px;
+       background: red;
 `
