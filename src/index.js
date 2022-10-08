@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Task from './Companent/Task';
-
+import Youtube from './Youtube'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Task />
+    <Youtube />
   </React.StrictMode>
 );
 
